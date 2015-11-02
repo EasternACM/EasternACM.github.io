@@ -1,2 +1,1 @@
-# EasternACM.github.io
-Organization Site
+University of Eastern Michigan ------- Association for Computing Machinery
