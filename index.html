@@ -114,7 +114,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; 2016 Eastern Association for Computing Machinery</p>
+            <p id="footerText">This should be replaced with a javascript function.</p>
         </div>
     </footer>
 
@@ -132,7 +132,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-
+    
+    <!-- Changes current year for the footer JavaScript -->
+    <script>
+    function setCurrentCopyrightYear() {
+        var d = new Date();
+        var n = d.getFullYear();
+        var t = "Copyright &copy; " + n +" Eastern Association for Computing Machinery";
+        document.getElementById("footerText").innerHTML = t;
+    }
+    </script>
 </body>
 
 </html>
