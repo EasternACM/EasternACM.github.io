@@ -130,16 +130,14 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <h2> Photos </h2>
-                <div id="links">
-                    <a href="img/banana.png" title="Banana">
-                        <img src="img/thumbnails/banana.png" alt="Banana">
-                    </a>
-                    <a href="img/apple.jpg" title="Apple">
-                        <img src="img/thumbnails/apple.jpg" alt="Apple">
-                    </a>
-                    <a href="img/orange.jpg" title="Orange">
-                        <img src="img/thumbnails/orange.jpg" alt="Orange">
-                    </a>
+                <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+                <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+                    <div class="slides"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
                 </div>
             </div>
         </div>
